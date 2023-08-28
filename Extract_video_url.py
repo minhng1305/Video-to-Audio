@@ -41,7 +41,7 @@ def main():
     extract_url(url, url_list)
 
     # Load that list into a new folder
-    new_file = "/Users/mac/Desktop/Projects/Audio-to-text_Project/new_url_file.txt"
+    new_file = "new_url_file.txt"
     load_to_txt_file(url_list, new_file)
 
 main()
