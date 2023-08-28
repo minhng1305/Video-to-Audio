@@ -1,7 +1,6 @@
 from requests_html import HTMLSession
 from pytube import YouTube
 import pandas as pd 
-from pytube import YouTube
 
 def extract_url(url, url_list):
     session = HTMLSession()
